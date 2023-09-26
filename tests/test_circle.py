@@ -1,6 +1,7 @@
-from data import TEST_DATA
-from otus_3.src.Circle import Circle
 import pytest
+from data import TEST_DATA
+
+from otus_3.src.Circle import Circle
 
 
 @pytest.mark.parametrize("a, perimeter, area", TEST_DATA["circle"])

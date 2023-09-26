@@ -1,6 +1,7 @@
-from data import TEST_DATA
-from otus_3.src.Rectangle import Rectangle
 import pytest
+from data import TEST_DATA
+
+from otus_3.src.Rectangle import Rectangle
 
 
 @pytest.mark.parametrize("a, b, perimeter, area", TEST_DATA["rectangle"])

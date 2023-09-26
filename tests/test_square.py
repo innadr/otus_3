@@ -1,6 +1,7 @@
-from data import TEST_DATA
-from otus_3.src.Square import Square
 import pytest
+from data import TEST_DATA
+
+from otus_3.src.Square import Square
 
 
 @pytest.mark.parametrize("a, perimeter, area", TEST_DATA["square"])

@@ -1,6 +1,7 @@
-from data import TEST_DATA
-from otus_3.src.Triangle import Triangle
 import pytest
+from data import TEST_DATA
+
+from otus_3.src.Triangle import Triangle
 
 
 @pytest.mark.parametrize("a, b, c, perimeter, area", TEST_DATA["triangle"])

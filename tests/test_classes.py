@@ -1,9 +1,10 @@
+import pytest
+from data import TEST_DATA
+
+from otus_3.src.Circle import Circle
 from otus_3.src.Rectangle import Rectangle
 from otus_3.src.Square import Square
 from otus_3.src.Triangle import Triangle
-from otus_3.src.Circle import Circle
-import pytest
-from data import TEST_DATA
 
 
 @pytest.mark.parametrize("a, b, c, sum_area",

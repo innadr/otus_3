@@ -1,4 +1,5 @@
 import math
+
 from otus_3.src.Figure import Figure
 
 
